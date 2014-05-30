@@ -9,6 +9,8 @@ Lita.configure do |config|
   config.adapter.muc_domain = "conf.hipchat.com"
 
   ## Example: Set options for the Redis connection.
-  config.redis.host = ENV['REDISTOGO_URL']
-  config.redis.port = ENV['PORT']
+  # config.redis.host = ENV['REDISTOGO_URL']
+  config.redis.url = ENV['REDISTOGO_URL']
+  # config.redis.port = ENV['PORT']
+  config.http.port = ENV['PORT']
 end
