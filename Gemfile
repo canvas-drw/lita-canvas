@@ -15,4 +15,4 @@ gem "lita-hipchat"
 # gem "lita-karma"
 
 gem "lita-down-for-everyone"
-
+gem "lita-ey-info"
