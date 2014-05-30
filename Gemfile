@@ -12,3 +12,6 @@ gem "lita-hipchat"
 # For example:
 # gem "lita-google-images"
 # gem "lita-karma"
+
+gem "lita-down-for-everyone"
+
