@@ -11,5 +11,5 @@ Lita.configure do |config|
   config.redis.url = ENV['REDISTOGO_URL']
   config.http.port = ENV['PORT']
 
-  # config.handlers.ey.api_token = ENV['EYAK']
+  config.hanlders.notify.key = ENV['LITA_NOTIFY_KEY']
 end
