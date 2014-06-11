@@ -21,11 +21,13 @@ GEM
       thor (>= 0.18.1)
     lita-down-for-everyone (0.0.3)
       lita
+    lita-google-images (1.0.5)
+      lita (>= 2.0)
     lita-hipchat (1.5.0)
       lita (>= 2.5)
       xmpp4r (>= 0.5.6)
-    lita-notify (0.0.3)
-      lita (>= 3.2.0)
+    lita-karma (2.1.0)
+      lita (>= 2.6)
     multi_json (1.10.1)
     multipart-post (2.0.0)
     puma (2.8.2)
@@ -45,5 +47,6 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-down-for-everyone
+  lita-google-images
   lita-hipchat
-  lita-notify
+  lita-karma
