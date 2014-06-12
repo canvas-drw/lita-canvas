@@ -10,4 +10,6 @@ Lita.configure do |config|
 
   config.redis.url = ENV['REDISTOGO_URL']
   config.http.port = ENV['PORT']
+
+  config.handlers.weather.api_key = ENV['WEATHER_UNDERGROUND_KEY']
 end
