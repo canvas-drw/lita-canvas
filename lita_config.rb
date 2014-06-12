@@ -12,4 +12,6 @@ Lita.configure do |config|
   config.http.port = ENV['PORT']
 
   config.handlers.weather.api_key = ENV['WEATHER_UNDERGROUND_KEY']
+  config.handlers.jenkins.url = "http://canbot.canvas.is:8080/"
+  config.handlers.jenkins.auth = ENV['JENKINS_AUTH']
 end
