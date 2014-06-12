@@ -8,7 +8,6 @@ gem "lita-hipchat"
 
 # Plugins
 gem "lita-karma"
-gem "lita-jenkins"
 gem "lita-weather"
 gem "lita-catfacts"
 gem "lita-google-images"
