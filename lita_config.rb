@@ -6,7 +6,7 @@ Lita.configure do |config|
   config.adapters.hipchat.password = ENV['LITA_PASSWORD']
   config.adapters.hipchat.debug = true
   config.adapters.hipchat.rooms = :all
-  config.adapters.hiptchat.muc_domain = "conf.hipchat.com"
+  config.adapters.hipchat.muc_domain = "conf.hipchat.com"
 
   config.redis.url = ENV['REDISTOGO_URL']
   config.http.port = ENV['PORT']
