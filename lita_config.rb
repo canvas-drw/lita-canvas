@@ -8,7 +8,7 @@ Lita.configure do |config|
   config.adapters.hipchat.rooms = :all
   config.adapters.hipchat.muc_domain = "conf.hipchat.com"
 
-  config.redis.url = ENV['REDISTOGO_URL']
+  config.redis[:host] = ENV['REDISTOGO_URL']
   config.http.port = ENV['PORT']
 
   config.handlers.weather.api_key = ENV['WEATHER_UNDERGROUND_KEY']
